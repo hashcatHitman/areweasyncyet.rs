@@ -19,6 +19,7 @@ env:
 
 jobs:
   build:
+    name: Build Pages
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
